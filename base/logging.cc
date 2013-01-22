@@ -33,7 +33,7 @@
 #include <windows.h>
 #include <tchar.h>
 #include <algorithm>
-#include "base/logging.h"
+#include <googleurl/base/logging.h>
 
 namespace logging {
 

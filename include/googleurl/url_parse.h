@@ -32,9 +32,9 @@
 
 #include <string>
 
-#include "base/basictypes.h"
-#include "base/string16.h"
-#include "googleurl/src/url_common.h"
+#include <googleurl/base/basictypes.h>
+#include <googleurl/base/string16.h>
+#include <googleurl/url_common.h>
 
 namespace url_parse {
 

@@ -32,7 +32,7 @@
 #ifndef GOOGLEURL_SRC_URL_CANON_ICU_H__
 #define GOOGLEURL_SRC_URL_CANON_ICU_H__
 
-#include "googleurl/src/url_canon.h"
+#include <googleurl/url_canon.h>
 
 typedef struct UConverter UConverter;
 

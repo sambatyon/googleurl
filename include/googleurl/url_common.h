@@ -34,7 +34,7 @@
 #define GURL_IMPLEMENTATION 0
 #endif
 
-#if defined(GURL_DLL)
+#if defined(GURL_DLL) || defined(googleurl_EXPORTS)
 #if defined(WIN32)
 #if GURL_IMPLEMENTATION
 #define GURL_API __declspec(dllexport)

@@ -32,7 +32,7 @@
 #include <stdlib.h>
 #include <string>
 
-#include "googleurl/src/url_canon_internal.h"
+#include <googleurl/url_canon_internal.h>
 
 namespace url_canon {
 

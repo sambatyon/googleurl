@@ -27,8 +27,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "base/basictypes.h"
-#include "googleurl/src/url_parse.h"
+#include <googleurl/base/basictypes.h>
+#include <googleurl/url_parse.h>
 #include "testing/gtest/include/gtest/gtest.h"
 
 // Some implementations of base/basictypes.h may define ARRAYSIZE.

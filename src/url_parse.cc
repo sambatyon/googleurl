@@ -34,14 +34,14 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
-#include "googleurl/src/url_parse.h"
+#include <googleurl/url_parse.h>
 
 #include <stdlib.h>
 
-#include "base/logging.h"
-#include "googleurl/src/url_parse_internal.h"
-#include "googleurl/src/url_util.h"
-#include "googleurl/src/url_util_internal.h"
+#include <googleurl/base/logging.h>
+#include <googleurl/url_parse_internal.h>
+#include <googleurl/url_util.h>
+#include <googleurl/url_util_internal.h>
 
 namespace url_parse {
 

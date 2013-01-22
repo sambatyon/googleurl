@@ -39,8 +39,8 @@
 #ifndef GOOGLEURL_SRC_URL_CANON_INTERNAL_FILE_H__
 #define GOOGLEURL_SRC_URL_CANON_INTERNAL_FILE_H__
 
-#include "googleurl/src/url_file.h"
-#include "googleurl/src/url_parse_internal.h"
+#include <googleurl/url_file.h>
+#include <googleurl/url_parse_internal.h>
 
 using namespace url_canon;
 

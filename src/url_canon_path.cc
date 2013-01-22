@@ -28,10 +28,10 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // Canonicalization functions for the paths of URLs.
 
-#include "base/logging.h"
-#include "googleurl/src/url_canon.h"
-#include "googleurl/src/url_canon_internal.h"
-#include "googleurl/src/url_parse_internal.h"
+#include <googleurl/base/logging.h>
+#include <googleurl/url_canon.h>
+#include <googleurl/url_canon_internal.h>
+#include <googleurl/url_parse_internal.h>
 
 namespace url_canon {
 

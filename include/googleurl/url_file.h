@@ -33,7 +33,7 @@
 #ifndef GOOGLEURL_SRC_URL_FILE_H__
 #define GOOGLEURL_SRC_URL_FILE_H__
 
-#include "googleurl/src/url_parse_internal.h"
+#include <googleurl/url_parse_internal.h>
 
 namespace url_parse {
 

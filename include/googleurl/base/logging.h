@@ -9,8 +9,8 @@
 #include <strstream>
 #include <tchar.h>
 
-#include "base/basictypes.h"
-#include "base/scoped_ptr.h"
+#include <googleurl/base/basictypes.h>
+#include <googleurl/base/scoped_ptr.h>
 
 // Optional message capabilities
 // -----------------------------

@@ -27,13 +27,13 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "googleurl/src/url_canon_ip.h"
+#include <googleurl/url_canon_ip.h>
 
 #include <stdlib.h>
 
-#include "base/basictypes.h"
-#include "base/logging.h"
-#include "googleurl/src/url_canon_internal.h"
+#include <googleurl/base/basictypes.h>
+#include <googleurl/base/logging.h>
+#include <googleurl/url_canon_internal.h>
 
 namespace url_canon {
 

@@ -26,13 +26,13 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "base/string16.h"
+#include <googleurl/base/string16.h>
 
 #include <string.h>
 
 #ifdef WIN32
 
-#error This file should not be used on 2-byte wchar_t systems
+//#error This file should not be used on 2-byte wchar_t systems
 // If this winds up being needed on 2-byte wchar_t systems, either the
 // definitions below can be used, or the host system's wide character
 // functions like wmemcmp can be wrapped.

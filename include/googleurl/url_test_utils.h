@@ -35,9 +35,9 @@
 
 #include <string>
 
-#include "base/string16.h"
-#include "googleurl/src/url_canon_internal.h"
-#include "testing/gtest/include/gtest/gtest.h"
+#include <googleurl/base/string16.h>
+#include <googleurl/url_canon_internal.h>
+#include <testing/gtest/include/gtest/gtest.h>
 
 namespace url_test_utils {
 

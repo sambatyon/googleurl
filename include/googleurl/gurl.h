@@ -33,11 +33,11 @@
 #include <iosfwd>
 #include <string>
 
-#include "base/string16.h"
-#include "googleurl/src/url_canon.h"
-#include "googleurl/src/url_canon_stdstring.h"
-#include "googleurl/src/url_common.h"
-#include "googleurl/src/url_parse.h"
+#include <googleurl/base/string16.h>
+#include <googleurl/url_canon.h>
+#include <googleurl/url_canon_stdstring.h>
+#include <googleurl/url_common.h>
+#include <googleurl/url_parse.h>
 
 class GURL {
  public:

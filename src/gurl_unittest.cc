@@ -1,9 +1,9 @@
 // Copyright 2007 Google Inc. All Rights Reserved.
 // Author: brettw@google.com (Brett Wilson)
 
-#include "googleurl/src/gurl.h"
-#include "googleurl/src/url_canon.h"
-#include "googleurl/src/url_test_utils.h"
+#include <googleurl/gurl.h>
+#include <googleurl/url_canon.h>
+#include <googleurl/url_test_utils.h>
 #include "testing/gtest/include/gtest/gtest.h"
 
 // Some implementations of base/basictypes.h may define ARRAYSIZE.
