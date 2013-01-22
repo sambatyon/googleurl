@@ -4,6 +4,7 @@
 #ifndef BASE_LOGGING_H__
 #define BASE_LOGGING_H__
 
+#if defined(_WIN32)
 #include <string>
 #include <cstring>
 #include <strstream>
@@ -478,5 +479,10 @@ std::ostream& operator<<(std::ostream& out, const wchar_t* wstr);
 inline std::ostream& operator<<(std::ostream& out, const std::wstring& wstr) {
   return out << wstr.c_str();
 }
+#else // defined(_WIN32)
+#include <iostream>
+#define DCHECK(condition) if (condition) ::std::cerr
+#define NOTREACHED()
+#endif // defined(_WIN32)
 
 #endif  // BASE_LOGGING_H__

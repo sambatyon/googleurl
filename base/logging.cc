@@ -27,6 +27,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+#if defined(_WIN32)
 #include <ctime>
 #include <iomanip>
 #include <cstring>
@@ -378,3 +379,4 @@ std::ostream& operator<<(std::ostream& out, const wchar_t* wstr) {
   WideCharToMultiByte(CP_UTF8, 0, wstr, -1, buf.get(), charcount, NULL, NULL);
   return out << buf.get();
 }
+#endif // defined(_WIN32)

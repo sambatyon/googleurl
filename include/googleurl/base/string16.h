@@ -51,6 +51,7 @@
 // of carrying UTF-16-encoded data.
 
 #include <string>
+#include <cstdio>
 
 #include <googleurl/base/basictypes.h>
 
