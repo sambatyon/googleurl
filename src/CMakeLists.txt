@@ -20,7 +20,11 @@ SOURCE_GROUP("Header Files" FILES ${GUrl_hdrs} ${GUrl_incl})
 SOURCE_GROUP("Source Files" FILES ${GUrl_srcs})
 
 IF (MSVC)
-#    ADD_DEFINITIONS(-DGURL_DLL)
+    # The REMOVE_HOST_WHEN_WIN_PATH disables an original optimization which transforms a
+    # path of the form file://localhost/c:/path/to/file.txt to c:/path/to/file.txt since
+    # this behavior is undesirable for our project. You may want to keep it by commenting
+    # the following line
+    ADD_DEFINITIONS(-DREMOVE_HOST_WHEN_WIN_PATH)
 ENDIF()
 
 INCLUDE_DIRECTORIES(${ICU_INCLUDE_DIRS})

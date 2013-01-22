@@ -90,7 +90,9 @@ void DoParseUNC(const CHAR* spec,
     return;
   }
 
-#ifdef WIN32
+#if defined(WIN32) && !defined(REMOVE_HOST_WHEN_WIN_PATH)
+  // README: This is a behavior which we don't want in our project
+  //         but I choose to leave, and allow to disable
   // See if we have something that looks like a path following the first
   // component. As in "file://localhost/c:/", we get "c:/" out. We want to
   // treat this as a having no host but the path given. Works on Windows only.
