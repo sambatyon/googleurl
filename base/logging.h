@@ -439,7 +439,7 @@ class LogMessage {
 
   LogSeverity severity_;
   std::ostrstream stream_;
-  int message_start_;  // offset of the start of the message (past prefix info).
+  std::size_t message_start_;  // offset of the start of the message (past prefix info).
 
   DISALLOW_EVIL_CONSTRUCTORS(LogMessage);
 };

@@ -152,7 +152,7 @@ GURL::GURL(const char* canonical_spec, size_t canonical_spec_len,
   // and we can't always canonicalize then reproducabely.
   if (is_valid_) {
     url_parse::Component scheme;
-    if (!url_util::FindAndCompareScheme(canonical_spec, canonical_spec_len,
+    if (!url_util::FindAndCompareScheme(canonical_spec, static_cast<int>(canonical_spec_len),
                                         "filesystem", &scheme) ||
         scheme.begin == parsed.scheme.begin) {
       // We can't do this check on the inner_url of a filesystem URL, as
